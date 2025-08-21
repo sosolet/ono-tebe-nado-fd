@@ -38,14 +38,22 @@ a {
 
 .header__logo-image {
   height: 105px;
-  margin-left: 10px;
+  margin-left: 12px;
 }
 
-.address-item {
+.header__address {
+  max-width: 230px;
+}
+
+.header__address-item {
   display: block;
   font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.35;
+}
+
+.header__address-link {
+  white-space: nowrap;
 }
