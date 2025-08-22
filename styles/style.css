@@ -1,3 +1,16 @@
+/*.test {
+  width: 1100px;
+  height: 3028px;
+  position: absolute;
+  top: 0;
+  left: 723px;
+  margin: auto;
+  background-image: url(../fff.png);
+  opacity: 0.2;
+  background-size: 100%;
+  z-index: 100;
+}*/
+
 body {
   color: #000;
   font-family: 'Raleway', sans-serif;
@@ -45,6 +58,7 @@ a {
 }
 
 .header__address-item {
+  font-style: normal;
   display: block;
   font-size: 18px;
   line-height: 1.35;
@@ -128,4 +142,89 @@ a {
   line-height: 26px;
   text-transform: uppercase;
   background-color: transparent;
+}
+
+.lots {
+  color: #fff;
+  line-height: 1.2;
+  padding: 180px 24px 120px;
+}
+
+.lots__titile {
+  color: #000;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  text-transform: uppercase;
+  margin: 0 0 27px 40px;
+}
+
+.lots__card-list {
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  margin-bottom: 30px;
+}
+
+.lots__card-list-item {
+  padding: 48px 40px;
+  position: relative;
+  z-index: 2;
+}
+
+.card {
+  height: 100%;
+  display: grid;
+  align-content: space-between;
+  gap: 35px;
+}
+
+.card-link {
+  text-decoration: none;
+}
+
+.card_type_film {
+  background-image: url(../images/card-lot-01.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.card_type_book {
+  background-image: url(../images/card-lot-02.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.card_type_picture {
+  background-image: url(../images/card-lot-03.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.card__title {
+  font-weight: 700;
+  font-size: 22px;
+  text-decoration: underline;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 2;
+  text-underline-offset: 2px;
+}
+
+.card__text {
+  font-weight: 400;
+  font-size: 20px;
+  position: relative;
+  z-index: 2;
+}
+
+.lots__look-more-link {
+  margin-left: 40px;
+  color: #000;
+  font-size: 20px;
+  line-height: 23px;
 }
