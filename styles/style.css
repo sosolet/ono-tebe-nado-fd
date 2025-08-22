@@ -1,6 +1,7 @@
 body {
   color: #000;
   font-family: 'Raleway', sans-serif;
+  font-weight: 400;
 }
 
 a {
@@ -26,8 +27,6 @@ a {
 }
 
 .header__navigation__list-link {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 400;
   font-size: 18px;
   white-space: nowrap;
 }
@@ -47,10 +46,7 @@ a {
 
 .header__address-item {
   display: block;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 400;
   font-size: 18px;
-  font-style: normal;
   line-height: 1.35;
 }
 
